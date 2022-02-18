@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #444851;
+}
+
+header {
+  padding: 10px;
+  margin: 1px;
+}
+
+header img {
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  vertical-align: middle;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+main {
+  height: 2000px;
+  background-color: rgb(241, 241, 241);
+}
+
+.box,
+nav {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+nav {
+  border-top: 30px solid rgb(241, 241, 241);
+  border-bottom: 1px solid lightgrey;
+}
+
+button {
+  background: white;
+  color: lightgray;
+  border: 1px solid lightgray;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.task {
+  background: #45abea;
+  color: white;
+}
+
+.checklist {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: rgb(179, 0, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+li {
+  padding: 5px;
+}
+
+.coloredcircle {
+  background-color: rgb(139, 139, 139);
+  display: inline-block;
+  border-radius: 20px;
+  padding: 5px;
+  width: 80px;
+  height: 15px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  ;
+}
+
+.editorial {
+  background-color: #45abea;
+}
+
+.q1goals {
+  background-color: #9c72e4;
+}
+
+.recruiting {
+  background-color: #64c0a9;
+}
+
+.mobile {
+  background-color: #f29e33;
+}
+
+.website {
+  background-color: #d863a1;
+}
